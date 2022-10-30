@@ -2,3 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.sm-nav{
+  width: 30px;
+  transform: rotateY(180deg);
+}
+.leading{
+  line-height: 1.3;
+}
+.calmer-white{
+  color: rgb(172, 172, 172);
+}
