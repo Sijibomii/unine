@@ -10,7 +10,7 @@ function App() {
 
       </div>
       <div className="body">
-        <div className="top bg-[#101010]">
+        <div className="top bg-[#101010] pb-10">
           <Disclamier />
           <Header />
           <HeroTop />
