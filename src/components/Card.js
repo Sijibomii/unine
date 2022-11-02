@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className='py-10 mt-8 px-4 flex flex-col items-center justify-center'>
       <div className='top'>
-        <img className='' src={ATM} />
+        <img className='atm' src={ATM} />
       </div>
       <div className=' mt-12'>
         <h2 className='text-4xl font-bold b mb-8'>Keep your cash flow clear and keep increasing</h2>

@@ -20,3 +20,6 @@
 .b{
   color: rgb(15, 15, 63);
 }
+.atm{
+  filter: drop-shadow(1px 1px 18px rgb(184, 182, 182));
+}
