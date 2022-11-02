@@ -14,7 +14,7 @@ const Comments = () => {
       1200: {
         perView: 2
       }
-    },
+    }
     
   })
  
