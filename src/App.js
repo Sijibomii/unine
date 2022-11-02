@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Disclamier from "./Disclaimer";
 import HeroTop from "./components/HeroTop";
 import HeroBottom from "./components/HeroBottom";
+import Info from "./components/Info";
 function App() {
   
   return (
@@ -16,6 +17,7 @@ function App() {
           <HeroTop />
           <HeroBottom />
         </div>
+        <Info />
       </div>
     </div>
   );
