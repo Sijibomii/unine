@@ -4,6 +4,7 @@ import HeroTop from "./components/HeroTop";
 import HeroBottom from "./components/HeroBottom";
 import Info from "./components/Info";
 import Card from "./components/Card";
+import Payment from "./components/Payment";
 function App() {
   
   return (
@@ -20,6 +21,7 @@ function App() {
         </div>
         <Info />
         <Card />
+        <Payment />
       </div>
     </div>
   );
