@@ -5,7 +5,7 @@ import Info3 from '../static/info3.png'
 import Info4 from '../static/info4.png'
 const Info = () => {
   return (
-    <div className='px-2 pt-16 bg-[#F8F8F8]'>
+    <div className='px-2 pt-16 pb-10 bg-[#F8F8F8]'>
       <div className='top px-2'>
         <h2 className='text-4xl text-center b font-bold'>Safe & Convienent Transaction</h2>
         <p className='font-semibold text-lg calmer-white text-center mt-8'>Want to pay anything so easy with the touch of a finger. Through UNINE you can make practically any transaction</p>

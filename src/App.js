@@ -3,6 +3,7 @@ import Disclamier from "./Disclaimer";
 import HeroTop from "./components/HeroTop";
 import HeroBottom from "./components/HeroBottom";
 import Info from "./components/Info";
+import Card from "./components/Card";
 function App() {
   
   return (
@@ -18,6 +19,7 @@ function App() {
           <HeroBottom />
         </div>
         <Info />
+        <Card />
       </div>
     </div>
   );
