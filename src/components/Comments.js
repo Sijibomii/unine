@@ -1,5 +1,7 @@
 import React, {useEffect} from 'react'
 import Glide from "@glidejs/glide";
+import "../dist/css/glide.core.min.css"
+import "../dist/css/glide.theme.min.css"
 
 const Comments = () => {
   const slider = new Glide('.glide', {
