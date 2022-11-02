@@ -6,6 +6,7 @@ const Comments = () => {
     type: 'carousel',
     perView: 2,
     hoverpause: true,
+    autoplay: 2000,
     breakpoints: {
       800: {
         perView: 1
