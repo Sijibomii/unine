@@ -26,3 +26,6 @@
 .swiper-wrapper{
   margin-bottom: 40px;
 }
+.swiper-pagination-bullet-active{
+  background-color: #72E484!important;
+}
