@@ -29,3 +29,6 @@
 .swiper-pagination-bullet-active{
   background-color: #72E484!important;
 }
+.borderr{
+  border-top: 1px solid rgb(143, 143, 143);
+}

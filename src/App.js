@@ -7,6 +7,7 @@ import Card from "./components/Card";
 import Payment from "./components/Payment";
 import Testi from "./components/Testi";
 import Download from "./components/Download";
+import Footer from "./components/Footer";
 function App() {
   
   return (
@@ -26,6 +27,7 @@ function App() {
         <Payment />
         <Testi />
         <Download />
+        <Footer />
       </div>
     </div>
   );
