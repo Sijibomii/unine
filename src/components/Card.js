@@ -7,7 +7,7 @@ const Card = () => {
         <img className='atm' src={ATM} />
       </div>
       <div className=' mt-12'>
-        <h2 className='text-4xl font-bold b mb-8'>Keep your cash flow clear and keep increasing</h2>
+        <h2 className='text-2xl font-bold b mb-8'>Keep your cash flow clear and keep increasing</h2>
         <p className='calmer-white text-md font-normal mb-4'>See it all at a glance when you link you cash accounts, credit card, investments and bills</p>
         <a className='flex items-center justify-center bg-[#72E484] px-8 py-4 rounded-xl w-3/4'>
           <h4 className='text-2xl font-bold mr-8'>Try for now</h4>

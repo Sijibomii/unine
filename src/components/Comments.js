@@ -18,6 +18,7 @@ const Comments = () => {
     loop={true}
     autoplay = {{
       delay: 3000,
+      disableOnInteraction: false
     }}
     // breakpoints={}
     // add buttons too
