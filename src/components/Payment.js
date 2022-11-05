@@ -6,7 +6,7 @@ const Payment = () => {
       <div className='top'>
         <img className='atm' src={ATM} />
       </div>
-      <div className=' mt-12'>
+      <div className=' mt-6'>
         <h2 className='text-2xl font-bold b mb-8'>Manage Regular payments easily</h2>
         <div className='flex items-center py-2'>
           <div className='py-4 mr-3'>

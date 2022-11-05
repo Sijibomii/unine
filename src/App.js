@@ -6,7 +6,7 @@ import Info from "./components/Info";
 import Card from "./components/Card";
 import Payment from "./components/Payment";
 import Testi from "./components/Testi";
-
+import Download from "./components/Download";
 function App() {
   
   return (
@@ -25,6 +25,7 @@ function App() {
         <Card />
         <Payment />
         <Testi />
+        <Download />
       </div>
     </div>
   );
