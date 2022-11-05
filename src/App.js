@@ -114,7 +114,7 @@ function App() {
             variants={menuVariants} 
             transition={{
               delay: 0.7,
-              duration: 1,
+              duration: 3,
               default: { ease: "linear" }
             }}
            className="flex items-center justify-center">
