@@ -10,7 +10,7 @@ const Info = () => {
         <h2 className='text-3xl text-center b font-bold'>Safe & Convienent Transaction</h2>
         <p className='font-normal text-lg calmer-white text-center mt-8'>Want to pay anything so easy with the touch of a finger. Through UNINE you can make practically any transaction</p>
       </div>
-      <div className='py-4 px-12 mt-6'>
+      <div className='py-4 px-8 mt-6'>
         <div className='flex flex-col justify-center bg-[#FFF] px-6 py-8 rounded-2xl'>
           <div className='top'>
             <img src={Info1} className="h-16 w-22" />
