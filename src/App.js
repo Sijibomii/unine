@@ -57,7 +57,7 @@ function App() {
   
   return (
     <div className="App max-w-7xl mx-auto" >
-      
+      {/* let this come from center */}
       <motion.div 
         initial={{
           opacity: 0,
@@ -114,7 +114,8 @@ function App() {
             variants={menuVariants} 
             transition={{
               delay: 0.7,
-              duration: 0.7,
+              duration: 1,
+              default: { ease: "linear" }
             }}
            className="flex items-center justify-center">
              <ul className="py-4 mt-6 flex items-center flex-col justify-center">
