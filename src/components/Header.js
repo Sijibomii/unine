@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../static/logo.JPG'
 
-const Header = () => {
+const Header = ({toggleModal}) => {
   return (
     <div className='flex items-center justify-between py-2 px-6 mt-4'>
       <div className='logo'>
@@ -9,7 +9,7 @@ const Header = () => {
         {/* COuld not get the logo */}
         {/* <img src={logo} className=" w-32" /> */}
       </div>
-      <div className='sm-nav'>
+      <div className='sm-nav' onClick={toggleModal}>
         <div className='w-full bg-white h-1 mb-1'></div>
         <div className='w-2/3 bg-white h-1 mb-1'></div>
         <div className='w-1/3 bg-white h-1 mb-1'></div>
