@@ -16,8 +16,8 @@ const Info = () => {
             <img src={Info1} className="h-16 w-22" />
           </div>
           <div className='bottom mt-8'>
-            <h4 className='b text-2xl font-bold'>Always protected</h4>
-            <p className='calmer-white mt-4 text-xl mt-8'>Shopping with UNINE is even more secure thanks to Buyer protection</p>
+            <h4 className='b text-xl font-bold'>Always protected</h4>
+            <p className='calmer-white mt-4 text-md mt-8'>Shopping with UNINE is even more secure thanks to Buyer protection</p>
           </div>
         </div>
 
@@ -26,8 +26,8 @@ const Info = () => {
             <img src={Info2} className="h-16 w-22" />
           </div>
           <div className='bottom mt-8'>
-            <h4 className='b text-2xl font-bold'>Get Reward</h4>
-            <p className='b mt-4 text-xl mt-8'>You can keep using your favourite card and keep getting reward</p>
+            <h4 className='b text-xl font-bold'>Get Reward</h4>
+            <p className='b mt-4 text-md mt-8'>You can keep using your favourite card and keep getting reward</p>
           </div>
         </div>
 
