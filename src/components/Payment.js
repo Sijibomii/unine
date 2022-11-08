@@ -3,10 +3,10 @@ import ATM from "../static/pay.png"
 const Payment = () => {
   return (
     <div className='py-10 mt-8 px-4 flex flex-col items-center justify-center'>
-      <div className='top'>
+      <div className='top md:px-10'>
         <img className='atm' src={ATM} />
       </div>
-      <div className=' mt-6'>
+      <div className='md:px-10 mt-6'>
         <h2 className='text-2xl font-bold b mb-8'>Manage Regular payments easily</h2>
         <div className='flex items-center py-2'>
           <div className='py-4 mr-3'>

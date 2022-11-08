@@ -17,7 +17,7 @@ function App() {
 
   const variants = {
     open: { opacity: 1, x: 0,scale: 1 },
-    closed: { opacity: 0, x: "-100%" },
+    closed: { opacity: 0, scale: 0 },
   }
 
   const h1Variants = {
@@ -108,7 +108,8 @@ function App() {
             initial={{
               opacity: 0,
               scale: 0,
-              y: "200%"
+              y: "200%",
+              
             }}
             animate={isOpen ? "open" : "closed"}
             variants={menuVariants} 

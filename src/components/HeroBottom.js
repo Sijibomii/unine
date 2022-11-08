@@ -6,7 +6,7 @@ const HeroBottom = () => {
   return (
     <div className='px-2 mt-4 py-2'>
       <div className=''>
-        <img src={Phone} className="h-full w-full"  />
+        <img src={Phone} className="h-full w-full md:h-[700px]"  />
       </div>
       <div className='flex items-center justify-center sm-apps'>
         <img src={Apple} className='h-36 w-44'   />

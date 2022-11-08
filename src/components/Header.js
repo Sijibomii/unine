@@ -3,7 +3,7 @@ import logo from '../static/logo.JPG'
 
 const Header = ({toggleModal}) => {
   return (
-    <div className='flex items-center justify-between py-2 px-6 mt-4'>
+    <div className='flex items-center justify-between py-2 px-6 mt-4 md:px-12'>
       <div className='logo'>
         <h1 className='text-2xl text-white font-bold'>UNINE</h1>
         {/* COuld not get the logo */}

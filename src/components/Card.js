@@ -2,11 +2,11 @@ import React from 'react'
 import ATM from "../static/card.png"
 const Card = () => {
   return (
-    <div className='py-10 mt-8 px-4 flex flex-col items-center justify-center'>
-      <div className='top'>
+    <div className='py-10 mt-8 px-4 flex flex-col items-center justify-center md:items-start'>
+      <div className='top md:px-8'>
         <img className='atm' src={ATM} />
       </div>
-      <div className=' mt-12'>
+      <div className='mt-12 md:px-10'>
         <h2 className='text-2xl font-bold b mb-8'>Keep your cash flow clear and keep increasing</h2>
         <p className='calmer-white text-md font-normal mb-4'>See it all at a glance when you link you cash accounts, credit card, investments and bills</p>
         <a className='flex items-center justify-center bg-[#72E484] px-8 py-4 rounded-xl w-3/4'>

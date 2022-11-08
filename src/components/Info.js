@@ -22,7 +22,7 @@ const Info = () => {
         </div>
 
         <div className='flex flex-col justify-center bg-[#72E484] mt-10 px-6 py-8 rounded-2xl'>
-          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center rounded-2xl mt-2'>
+          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center md:justify-start md:w-[9%] rounded-2xl mt-2'>
             <img src={Info2} className="h-16 w-22" />
           </div>
           <div className='bottom mt-8'>
@@ -32,7 +32,7 @@ const Info = () => {
         </div>
 
         <div className='flex flex-col justify-center bg-[#FFF] mt-10 px-6 py-8 rounded-2xl'>
-          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center rounded-2xl'>
+          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center rounded-2xl md:justify-start md:w-[9%]'>
             <img src={Info3} className="h-16 w-22" />
           </div>
           <div className='bottom mt-14'>
@@ -42,7 +42,7 @@ const Info = () => {
         </div>
 
         <div className='flex flex-col justify-center bg-[#FFF] mt-10 px-6 py-8 rounded-2xl'>
-          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center rounded-2xl'>
+          <div className='top bg-[#FFF] w-1/4 flex items-center justify-center rounded-2xl md:justify-start md:w-[9%]'>
             <img src={Info4} className="h-16 w-22" />
           </div>
           <div className='bottom mt-14'>
